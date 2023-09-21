@@ -1,0 +1,22 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1rems;
+    max-width: 800px;
+}
+
+.img {
+    height: 400px;
+    width: 1200px;
+}
+
+footer {
+    background-color: #3a3a3a;
+}
+
+.footer-text{
+    padding: 0.5rem;
+    color: white;
+}
