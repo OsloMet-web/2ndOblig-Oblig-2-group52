@@ -4,12 +4,33 @@ html {
 
 body {
     font-size: 1rems;
-    max-width: 800px;
+    margin-left: 3rem;
+}
+
+p {
+    max-width: 700px;
+}
+
+.title {
+    margin-bottom: 0px;
+    max-width: 1200px;
+
+}
+.under-title{
+    max-width: 1200px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #7d827e;
 }
 
 .img {
-    height: 400px;
-    width: 1200px;
+    height: 432px;
+    width: 700px;
+    margin-top: 1rem;
+}
+
+.img-caption{
+    color: #7d827e;
 }
 
 footer {
