@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     font-size: 1rems;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -47,7 +48,7 @@ nav{
 }
 
 .main-text {
-    margin-left: 10;
+    margin-left: 7.5%;
 }
 
 .img {
