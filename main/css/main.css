@@ -3,6 +3,7 @@ html, body {
     padding: 0px;
     margin: 0px;
     font-size: 1rems;
+    max-width: 100%;
 }
 
 
@@ -15,6 +16,7 @@ nav{
     padding: 15px;
 
 }
+
 
 .nav-text {
     text-decoration: none;
@@ -44,6 +46,10 @@ nav{
     color: #7d827e;
 }
 
+.main-text {
+    margin-left: 10;
+}
+
 .img {
     height: 432px;
     width: 700px;
@@ -66,19 +72,6 @@ footer {
     margin: 0px;
     background-color: #3a3a3a;
     width: 100%;
-}
-.footer-text-left{
-    padding-left: 50px;
-    float: left;
-    text-align: center;
-}
-.footer-text-right{
-    padding-right: 50px;
-    float: right;
-    text-align: right;
-}
-
-.footer-text{
     padding: 0.5rem;
     color: white;
 }
