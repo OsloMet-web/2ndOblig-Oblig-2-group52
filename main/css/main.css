@@ -11,26 +11,32 @@ p, ul, li {
 }
 
 nav{
-    background-color: #7d827e;
-    height: fit-content;
-    max-height: 100vh;
-    padding: 10px;
+    background-color: #3a3a3a;
+    padding: 15px;
+
 }
+
 .nav-text {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
+
 .nav-text:hover {
-    background-color: aliceblue;
-    color: black;
+    background-color: white;
+    color:#3a3a3a;
+}
+
+.nav-text-active {
+    background-color: white;
+    color:#3a3a3a;
 }
 
 .title {
     margin-bottom: 0px;
     max-width: 1200px;
-
 }
+
 .under-title{
     max-width: 1200px;
     margin-top: 10px;
@@ -56,10 +62,20 @@ nav{
 }
 
 footer {
-    position: absolute;
-    padding: 0px;
+    padding: 15px;
     margin: 0px;
     background-color: #3a3a3a;
+    width: 100%;
+}
+.footer-text-left{
+    padding-left: 50px;
+    float: left;
+    text-align: center;
+}
+.footer-text-right{
+    padding-right: 50px;
+    float: right;
+    text-align: right;
 }
 
 .footer-text{
