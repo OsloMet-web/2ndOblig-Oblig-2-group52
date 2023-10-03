@@ -1,21 +1,29 @@
-html {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    font-size: 1rems;
 }
 
-body {
-    font-size: 1rems;
-    margin-left: 3rem;
-}
 
 p, ul, li {
     max-width: 700px;
 }
 
 nav{
-    background-color: #7d827e   ;
+    background-color: #7d827e;
+    height: fit-content;
+    max-height: 100vh;
+    padding: 10px;
+}
+.nav-text {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav-text:hover {
+    background-color: aliceblue;
+    color: black;
 }
 
 .title {
