@@ -14,7 +14,7 @@ p, ul, li {
 nav{
     background-color: #3a3a3a;
     padding: 15px;
-    position: fixed;
+    position: fixed; /* Fixed so nav bar follow site */
     width: 100%;
 
 }
@@ -45,14 +45,14 @@ nav{
     max-width: 1200px;
     margin-top: 10px;
     font-size: 1rem;
-    color: #ffffff;
+    color: #000000;
 }
 
 .main-text {
     margin-left: 5%;
     padding: 2.5%;
     max-width: fit-content;
-    background-color: #47ACAD;
+    
 }
 
 .img {
@@ -62,11 +62,15 @@ nav{
 }
 
 .img-caption{
-    padding-top: 0.5EM;
-    color: #ffffff;
+    color: #000000;
 }
 
-
+.sec {
+    width: 100%;
+    
+    padding: 0%;
+    margin: 0;
+}
 
 footer {
     padding: 15px;
