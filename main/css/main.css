@@ -2,10 +2,9 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    font-size: 1rems;
+    font-size: 1rem;
     max-width: 100%;
 }
-
 
 p, ul, li {
     max-width: 700px;
@@ -13,17 +12,16 @@ p, ul, li {
 
 nav{
     background-color: #3a3a3a;
-    padding: 15px;
+    padding: 1rem;
     position: fixed; /* Fixed so nav bar follow site */
     width: 100%;
 
 }
 
-
 .nav-text {
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .nav-text:hover {
@@ -37,15 +35,15 @@ nav{
 }
 
 .title {
-    margin-bottom: 0px;
+    margin-bottom: 0%;
     max-width: 1200px;
 }
 
 .under-title{
     max-width: 1200px;
-    margin-top: 10px;
+    margin-top: 1rem;
     font-size: 1rem;
-    color: #000000;
+    color: #2c2c2c;
 }
 
 .main-text {
@@ -67,16 +65,18 @@ nav{
 
 .sec {
     width: 100%;
-    
     padding: 0%;
-    margin: 0;
+    margin: 0%;
 }
 
 footer {
-    padding: 15px;
-    margin: 0px;
+    margin: 0%;
     background-color: #3a3a3a;
     width: 100%;
     padding: 0.5rem;
+}
+
+.footer-text{
+    margin-left: 5%;
     color: white;
 }
